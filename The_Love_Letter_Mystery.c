@@ -16,7 +16,7 @@ main()
 		length=strlen(str);//Find the length of the string
 		for(j=0;j<length/2;j++)//This loop will go from the beginning to the middle of a particular string
 		{
-				while(!(str[j]==str[length-1-j]))//The loop will go on until both the characters are equal
+				while(!(str[j]==str[length-1-j]))//The loop will go on  until both the characters are equal
 				{
 					if(str[j]>str[length-1-j])//if the previous character is greater, reduce it
 					{
